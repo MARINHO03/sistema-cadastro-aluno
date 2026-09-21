@@ -1,0 +1,5 @@
+d=int(input('quantos dias você alugou o carro?'))
+km=float(input('quantos km você rodou?'))
+a=float(d * 60)
+g=float(km * 0.15)
+print(' o valor a ser pago é de R${:.2f}'.format(a+g))
